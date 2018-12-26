@@ -23,3 +23,10 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### Heroku ###
+.Procfile.swp
+.Procfile.un~
+.Procfile.windows.un~
+.Profile.windows.un~
+

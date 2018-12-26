@@ -14,6 +14,7 @@
     </h:head>
 
     <h:body>
+    
         <pe:layout fullPage="true" >
             <pe:layoutPane position="center" >
                 <h:form id="contentForm" prependId="false" enctype="multipart/form-data">
@@ -27,6 +28,7 @@
                         </center>
                     </p:dialog>
                     <div id="starterDiv" class="ui-fluid">
+    					<p:outputLabel value="Quick Quality Pro" style="font-size:48px;" />
                         <center>
                             <p:menubar>
                                 <p:menuitem value="Starter" url="/starter.jsf" />
@@ -42,7 +44,7 @@
                             <ui:insert name="content" />
                         </center>
                     </div>
-                    <p:commandButton value="teste"></p:commandButton>
+                    <p:commandButton value="test"></p:commandButton>
                 </h:form>
             </pe:layoutPane>
         </pe:layout>
